@@ -1,0 +1,586 @@
+a.nav-link {
+    color: black;
+}
+
+a.nav-link:hover{
+    color:  #bae8f5;
+}
+.navbar{
+    background-color:  #EFF5F8;
+}
+.bundles-img img{
+    height:300px ;
+    width:340px;
+}
+
+.row {
+  display: flex;
+}
+.header{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.photo-header{
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.text{
+    text-align: center;
+    font-family: "SuisseWorks", Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+}
+.bundles-text{
+    position: absolute;
+    font-weight: 700;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    line-height: 65px;
+    display: inline-block;
+    color: white;
+}
+.bundles-text h1{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.bundles-text1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.bundles-text2{
+    background-color: #EFF5F8;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.bundles-text3{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.re-text3{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.content-footer{
+    text-align: center;
+}
+.re-text{
+    text-align: center;
+    background-color: #EFF5F8;
+    margin: 10px;
+    width: 50%;
+    padding: 10px;
+}
+.re-text p{
+    margin: 0px;
+
+}
+.re-img1 img{
+    height:250px ;
+    width:340px;
+}
+.re-img2 img{
+    height:300px;
+    width:340px;
+}
+.re-img1 p{
+    margin-top: 15px;
+}
+.re-text1{
+    text-align: center;
+}
+.maga-text3{
+    margin-bottom: 40px;
+}
+.maga-gal{ 
+    padding-bottom: 20px;
+}
+.about-img img{
+    height:300px;
+    width:530px;
+
+}
+.aboutus-middle{
+    padding: 20px;
+}
+.maga-img img{
+    height:200px;
+    width:340px;
+}
+.bundles-gal{
+    padding-bottom: 20px;
+}
+.photo-text1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.1em solid; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 1px; /* Adjust as needed */
+  animation: 
+    typing 2.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0% }
+  to { width: 30% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+.header-text{
+    background-color: #EFF5F8;
+    padding: 25px;
+}
+.product-text{
+    padding: 25px;
+}
+.text1{
+    margin: 20px;
+}
+.footer{
+    background-color: #EFF5F8;
+}
+
+.footer-text li{
+    list-style-type: none;
+}
+.footer-text ul{
+    padding: 10px;
+}
+.photo-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#phototext1,
+.bundles-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.photo-text1{
+    position: absolute;
+    font-weight: 700;
+    font-size: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    line-height: 65px;
+    display: inline-block;
+/*    border-bottom: 10px solid white;*/
+}
+
+#white {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 0.5px solid black;
+}
+#brown {
+    position: absolute;
+    top: 20px;
+    left: 95px;
+    height: 20px;
+    width: 20px;
+    background-color: #778899;
+    border: 0.5px solid black;
+}
+#yellow {
+    position: absolute;
+    top: 20px;
+    left: 45px;
+    height: 20px;
+    width: 20px;
+    background-color: #f9fae3;
+    border: 0.5px solid black;
+}
+#light-brown {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    height: 20px;
+    width: 20px;
+    background-color: #ebe8e3;
+    border: 0.5px solid black;
+}
+#white2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 0.5px solid black;
+}
+#brown2 {
+    position: absolute;
+    top: 20px;
+    left: 95px;
+    height: 20px;
+    width: 20px;
+    background-color: #778899;
+    border: 0.5px solid black;
+}
+#yellow2 {
+    position: absolute;
+    top: 20px;
+    left: 45px;
+    height: 20px;
+    width: 20px;
+    background-color: #f9fae3;
+    border: 0.5px solid black;
+}
+#light-brown2 {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    height: 20px;
+    width: 20px;
+    background-color: #ebe8e3;
+    border: 0.5px solid black;
+}
+
+#white3 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 0.5px solid black;
+}
+#brown3 {
+    position: absolute;
+    top: 20px;
+    left: 95px;
+    height: 20px;
+    width: 20px;
+    background-color: #778899;
+    border: 0.5px solid black;
+}
+#yellow3 {
+    position: absolute;
+    top: 20px;
+    left: 45px;
+    height: 20px;
+    width: 20px;
+    background-color: #f9fae3;
+    border: 0.5px solid black;
+}
+#light-brown3 {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    height: 20px;
+    width: 20px;
+    background-color: #ebe8e3;
+    border: 0.5px solid black;
+}
+
+#white4 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 0.5px solid black;
+}
+#brown4 {
+    position: absolute;
+    top: 20px;
+    left: 95px;
+    height: 20px;
+    width: 20px;
+    background-color: #778899;
+    border: 0.5px solid black;
+}
+#yellow4 {
+    position: absolute;
+    top: 20px;
+    left: 45px;
+    height: 20px;
+    width: 20px;
+    background-color: #f9fae3;
+    border: 0.5px solid black;
+}
+#light-brown4 {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    height: 20px;
+    width: 20px;
+    background-color: #ebe8e3;
+    border: 0.5px solid black;
+}
+
+#black5 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border: 0.5px solid black;
+}
+#blue5 {
+    position: absolute;
+    top: 20px;
+    left: 95px;
+    height: 20px;
+    width: 20px;
+    background-color: #2F3E86;
+    border: 0.5px solid black;
+}
+#light-brown5 {
+    position: absolute;
+    top: 20px;
+    left: 45px;
+    height: 20px;
+    width: 20px;
+    background-color: #848487;
+    border: 0.5px solid black;
+}
+#red5 {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    height: 20px;
+    width: 20px;
+    background-color: #B81B36;
+    border: 0.5px solid black;
+}
+#yellow5 {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    height: 20px;
+    width: 20px;
+    background-color: #FFC600;
+    border: 0.5px solid black;
+}
+#white6 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 0.5px solid black;
+}
+#black6 {
+    position: absolute;
+    top: 20px;
+    left: 45px;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border: 0.5px solid black;
+}
+#white7 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 0.5px solid black;
+}
+#black7 {
+    position: absolute;
+    top: 20px;
+    left: 45px;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border: 0.5px solid black;
+}
+#blue8 {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    height: 20px;
+    width: 20px;
+    background-color: #585e76;
+    border: 0.5px solid black;
+}
+#white8 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 20px;
+    width: 20px;
+    background-color:#ebe8e3 ;
+    border: 0.5px solid black;
+}
+#red8 {
+    position: absolute;
+    top: 20px;
+    left: 45px;
+    height: 20px;
+    width: 20px;
+    background-color: #a2494f;
+    border: 0.5px solid black;
+}
+#white9 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 0.5px solid black;
+}
+#brown9 {
+    position: absolute;
+    top: 20px;
+    left: 95px;
+    height: 20px;
+    width: 20px;
+    background-color: #778899;
+    border: 0.5px solid black;
+}
+#yellow9 {
+    position: absolute;
+    top: 20px;
+    left: 45px;
+    height: 20px;
+    width: 20px;
+    background-color: #f9fae3;
+    border: 0.5px solid black;
+}
+#light-brown9 {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    height: 20px;
+    width: 20px;
+    background-color: #ebe8e3;
+    border: 0.5px solid black;
+}
+#white10 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 0.5px solid black;
+}
+#brown10 {
+    position: absolute;
+    top: 20px;
+    left: 45px;
+    height: 20px;
+    width: 20px;
+    background-color: #a5a4b4;
+    border: 0.5px solid black;
+}
+#photo1-1, #photo1-2, #photo1-3,#photo2-1, #photo2-2, #photo2-3,#photo3-1, #photo3-2, #photo3-3,#photo4-1, #photo4-2, #photo4-3,
+#photo5-1,#photo5-2, #photo5-3, #photo5-4, #photo6-1, #photo7-1, #photo8-1, #photo8-2, #photo10-1
+, #photo9-1, #photo9-3, #photo9-2
+{
+    display: none;
+}
+.footer-img{
+    width: 100px;
+    text-align: center;
+    padding-top: 50px;
+}   /*
+*{
+    border: 1px solid red;
+}*/
+
+@media only screen and (max-width: 768px) {
+.horizontalline{
+    display: none;
+.} 
+#brown10,#white10,#light-brown9,#yellow9,#brown9,#white9,
+#red8,#white8,#blue8,#black7,#white7,#black6,#white6,
+#yellow5, #red5 ,#light-brown5,
+#blue5, #black5, #light-brown4, #yellow4, #brown4, #white4, #light-brown3, #yellow3, #brown3, #white3,
+#light-brown2, #yellow2, #brown2, #white2, #light-brown, #yellow,
+#brown, #white
+{
+    display: none;
+}
+.text1 {
+    padding-left: 10px;
+}
+.header-text{
+    padding: 0px;
+    padding-top: 10px;
+}
+.footer-img{
+    padding-right: 40px;
+}
+.bundles-img{
+    padding: 10px;
+}
+.maga-img{
+        padding: 10px;
+}
+.bundles-text4{
+    font-size: 20px;
+    line-height: 5px;
+}
+.about-img img{
+    width:230px;
+}  
+.photo-header {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+}  
+.index-con{
+    margin-bottom: 10px;
+}
+.photo-text1{
+    font-size: 65px; 
+}
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+}
+@media only screen and (max-width: 999px) {
+.bundles-img img {
+    width: 240px;
+    height: 250px;
+}
+.maga-img img{
+   width: 240px;
+}
+.about-img img{
+    width:350px;
+}
+.re-img1 img{
+    width: 240px;
+}
+.re-img2 img{
+    width: 240px;
+}
+}
